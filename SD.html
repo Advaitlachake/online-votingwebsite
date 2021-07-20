@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="SD.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+   body
+{
+  background-image: url("flag.jpg");
+            background-repeat: no-repeat;
+               background-size: 1600px 900px;
+}
+.left
+{ 
+  font-family: "Comic Sans MS";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 90px;
+  width:35%;
+height:100%;
+float :left;
+text-align: center;
+align-items: top left;
+  animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+
+}
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+        .card { width :25%;
+        
+        float:left;
+        height:100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.right{   
+  font-family: "Comic Sans MS";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 90px;
+          width:40%;
+  text-align: center;
+        height:100%;
+        float: left;
+        align-items: top left;
+  animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+}
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+
+
+
+
+</head>
+<body>
+<div>
+
+<h1 style="text-align:center">BIODATA</h1>
+<div class="left">
+  <h2>Agenda</h2>
+  <li id ="a1"></li>
+  <li id ="a2"></li>
+  <li id ="a3"></li>
+  <li id ="a4"></li>
+  <li id ="a5"></li>
+
+</div>
+
+<div class="card" >
+  <img src="BJP.jpeg" style="width:100%">
+  <b><h1><span id="name"></span></h1>
+    <p class="title">Contesting for: <span class="title" id="post"></span></p>
+    <p>Age: <span id="age"></span></p>
+    <p>DOB: <span id="dob"></span></p>
+    <p>Blood Group: <span id="bg"></span></p>
+    <p>Party Name: <span id="pn"></span></p>
+    <p>Party Post: <span id="pp"></span></p>
+    <p>Net Worth: <span id="nw"></span></p>
+    <p>Education: <span id="edu"></span></p>
+    <p>Martial Status: <span id="ms"></span></p></b>
+  
+
+</div>
+<div class="right">
+  <h2>Previous Posts held</h2>
+  <li id ="p1"></li>
+  <li id ="p2"></li>
+  <li id ="p3"></li>
+  
+</div>
+</div>
+</body>
+</html>
